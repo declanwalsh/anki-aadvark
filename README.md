@@ -1,5 +1,5 @@
 # anki-aadvark
 
-Personal repo for various Anki decks.
+Personal repo for Anki deck of interesting words.
 
-Uses [ki](https://langfield.github.io/ki/index.html) to sync to Anki locally.
+Uses [crowdAnki](https://ankiweb.net/shared/info/1788670778) to sync to Anki locally.

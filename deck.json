@@ -1,0 +1,871 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "ed2cfcca-3b6b-11ee-b9d6-90324b28bced",
+    "deck_config_uuid": "ed2d02ce-3b6b-11ee-b9d6-90324b28bced",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "ed2d02ce-3b6b-11ee-b9d6-90324b28bced",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 5
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "ankidroid_audiorec6368152186635533278.3gp"
+    ],
+    "name": "Interesting Words",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Nimbus Sans [UKWN]",
+                    "name": "Word",
+                    "ord": 0,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Definition",
+                    "ord": 1,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Book",
+                    "ord": 2,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Sentence",
+                    "ord": 3,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "name": "Pronounciation",
+                    "ord": 4,
+                    "plainText": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "originalStockKind": 1,
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{#Definition}}\n    Definition: {{Definition}}\n{{/Definition}}\n\n<br>\n<br>\n{{#Book}}\n    Book: {{Book}}\n{{/Book}}\n<br>\n{{#Sentence}}\n    Sentence: {{Sentence}}\n{{/Sentence}}\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Word}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Paschal",
+                "Pertaining to the passover, or to Easter.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "jFwIFS6K9l",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Oblation",
+                "The act of offering something, such as worship or thanks, to a deity (ofter referring to the Eucharist).",
+                "",
+                "",
+                ""
+            ],
+            "guid": "jtj:RF:gV!",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Perspicacity",
+                "Acuteness of perception, discernment, or understanding.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "p3YS/X>]P-",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Churl",
+                "A rude, boorish person.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "xpi_:/@-5k",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Lubricious",
+                "Full of or displaying sexual desire.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "go1;r1:$Mq",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pillory",
+                "A wooden framework on a post, with holes for the head and hands, in \nwhich offenders were formerly locked to be exposed to public scorn as \npunishment.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "FE@+P){JG3",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Lucubration",
+                "Laborious study or thought.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "m_*Mka-5_b",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Traduce",
+                "To make false or malicious statements about someone in order to cause humiliation or disgrace.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "OD)I*&5D(t",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Genuflect",
+                "To bend the knee or touch one knee to the floor or ground, as in worship.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "l^-:tQMk1o",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Congenial",
+                "1. Having the same tastes, habits, or temperament; sympathetic. <br>\n2. Of a pleasant disposition; friendly and sociable.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "p}#|}EBzL+",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Fervent",
+                "1. Having or showing great emotion or zeal; ardent.<br>\n2. Extremely hot; glowing.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "kR[u}7TvZr",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Proselytize",
+                "To attempt to convert someone to one's own religious faith.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "IH_<pkOFk#",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ecumenical",
+                "Of worldwide scope or applicability; universal (particularly relating to the global Christan church).<br>",
+                "",
+                "",
+                ""
+            ],
+            "guid": "gaY7IM4(h4",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Demesne",
+                "Possession and use of one's own land (particularly in the context of a feudal lord's manor).",
+                "",
+                "",
+                ""
+            ],
+            "guid": "fq(B-!iX1Z",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Balkanization",
+                "Fragmentation of a larger region or state into smaller regions or\n states, which may be hostile or uncooperative with one another",
+                "",
+                "",
+                ""
+            ],
+            "guid": "jp^(ED/3a+",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ablution",
+                "A washing or cleansing of the body (especially as part of a religious rite).",
+                "",
+                "",
+                "[sound:ankidroid_audiorec6368152186635533278.3gp]"
+            ],
+            "guid": "r<c!@|C`6P",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Painter (nautical)<br>",
+                "A rope that is attached to the bow of a dinghy, or other small boat, and used for tying up or towing.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "yLS6Z]]/pB",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Laconic",
+                "Using or marked by the use of few words; terse or concise.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "F#@IN#}^Ym",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Samovar",
+                "A metal container traditionally used to heat and boil water (Eastern European, particularly Russian).",
+                "",
+                "",
+                ""
+            ],
+            "guid": "q*MMS{5RX>",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Inveterate",
+                "Firmly and long established; deep-rooted.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "O5|QHG,+ks",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Innocuous",
+                "1. Having no adverse effect; harmless.<br>\n2. Not likely to offend or provoke to strong emotion; insipid.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "IEdA}]z3fX",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Venerable",
+                "Calling forth respect through age, character, and attainments.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "t6q)umAe)q",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Garrulous",
+                "Given to excessive and often trivial or rambling talk",
+                "",
+                "",
+                ""
+            ],
+            "guid": "p5o-5jSt+7",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Convolution<br>",
+                "1. A thing that is complex and difficult to follow.<br>\n2. A coil or twist.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "uJmH;%ih-)",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Talmud",
+                "Central text of Rabbinic Judaism and the primary source of Jewish religious law.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "G.5N!?r8tm",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Neurasthenia",
+                "An ill-defined medical condition characterized by lack of energy, fatigue, headache, and irritiability, associated chiefly with emotional disturbance.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "j<+I<gERo{",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Lassitude",
+                "A state of physical or mental weariness; lack of energy.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "iF`d^[)b7",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Indelible",
+                "1. Making marks that cannot be removed.<br>\n2. Not able to be forgotten.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "NY/A2SYX5I",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Errant",
+                "1. Erring or straying from the accepted course or standards. <br>\n2. Travelling in search of adventure.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "sn)R[G|cCf",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Dissemble",
+                "&gt;Disguise or conceal (a feeling, belief or intention).",
+                "",
+                "",
+                ""
+            ],
+            "guid": "xctt$(H$0l",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Fangy",
+                "Full of sharp teeth (uncommon word).",
+                "",
+                "",
+                ""
+            ],
+            "guid": "mAwv3^E?V=",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Umbrous",
+                "Shady or in shadows.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "EDGX;%6AQo",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Encephalograph/encephalogram",
+                "&gt;An X-ray picture of the brain.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "p}&l/<nDUB",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Profane",
+                "To treat (something sacred) with abuse, irreverence, or contempt.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "yu<>67?a*]",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Pelagic",
+                "Oceanic. Of, relating to, or living or occurring in the open sea.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "mlx+I&io$/",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<h1 class=\"hword\">Interregnum</h1>",
+                "A lapse or pause in a continuous series (particularly in a political context, including when a vacant throne between two successive reigns or regimes or period during which the normal functions of government or control are suspended).",
+                "",
+                "",
+                ""
+            ],
+            "guid": "RiyPzyJQir",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Capricious",
+                "Characterized by, arising from, or subject to impulsiveness or unpredictability.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "gr{Ya?)WEw",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Facetious",
+                "Joking or jesting, often inappropriately.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "KFz7$R48(w",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Decerebrate",
+                "&gt;Caused by or as if by elimination of cerebral brain function (particularly by having the cerebrum removed or made inactive).",
+                "",
+                "",
+                ""
+            ],
+            "guid": "b/4KYCUGh&",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Surreptitious",
+                "Done, made, or acquired by stealth.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "Q^;7+8Vau#",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Foment",
+                "To promote the growth or development of.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "ym>N_9e=f1",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Convalescence",
+                "To recover health and strength gradually after sickness or weakness.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "g!T?dH@V&>",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Deputation",
+                "A group of people appointed to represent others (including appointing a deputy).",
+                "",
+                "",
+                ""
+            ],
+            "guid": "M2HQ@JB4CE",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Assignation",
+                "An appointment of time and place for a meeting (particularly between lovers, such as a tryst).",
+                "",
+                "",
+                ""
+            ],
+            "guid": "A8*c|A/ky5",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Semaphore",
+                "A system of visual signaling (particularly using two flags held one in each hand).",
+                "",
+                "",
+                ""
+            ],
+            "guid": "m_MYrjG>I2",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Priapic",
+                "Of, relating to, or resembling a phallus or male sexual excitement and virility.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "gKgUE([.~Q",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Priapism",
+                "A condition in which a penis remains erect for hours in the absence of stimulation or after stimulation has ended.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "pdDeHEQ~`3",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Exogenous",
+                "Originating externally.",
+                "",
+                "",
+                ""
+            ],
+            "guid": "J5A5m*dSv2",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Balefully",
+                "Foreboding or threatening evil",
+                "High Rise",
+                "The leader of the pack, the elderly children's-story writer, gazed balefully at Wilder when he offered her the starring role in his documentary.",
+                ""
+            ],
+            "guid": "b/o)G",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Surly",
+                "bad-tempered and unfriendly.",
+                "High Rise",
+                "The residents of the high rise were like creatures in a darkened zoo lying together in surly quiet, now and then tearing at each other in brief acts of violence.",
+                ""
+            ],
+            "guid": "/#^mJ",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Torpor",
+                "a state of physical or mental inactivity; lethargy.",
+                "High Rise ",
+                "Wilder's feigned and unfeigned rages, his fantasies of revenge roused them briefly from their state of torpor.",
+                ""
+            ],
+            "guid": "ys7IR",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ostensibly ",
+                "as appears or is stated to be true, though not necessarily so; apparently.",
+                "Six women lived together in the adjacent apartment, ostensibly so that they could be more easily protected from a surprise attack.",
+                "",
+                ""
+            ],
+            "guid": "0bay8",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Mucilage ",
+                "a viscous secretion or bodily fluid.",
+                "High Rise ",
+                "Surround themselves with the mucilage of unfinished meals.",
+                ""
+            ],
+            "guid": "XnORE",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Malaise",
+                "a general feeling of discomfort, illness, or unease whose exact cause is difficult to identify.",
+                "High Rise ",
+                "Alice had fallen ill with a non-specidic malaise.",
+                ""
+            ],
+            "guid": "ojFp3",
+            "note_model_uuid": "ed2d1624-3b6b-11ee-b9d6-90324b28bced",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
